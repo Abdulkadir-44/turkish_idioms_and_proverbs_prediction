@@ -141,7 +141,7 @@ else:
     print("Henüz metrik verisi kaydedilmedi.")
 
 # --- 16. Modeli Kaydet ---
-model_dir = "./mt5_atasozleri_final_model"
-os.makedirs(model_dir, exist_ok=True)
-model.save_pretrained(model_dir)
-tokenizer.save_pretrained(model_dir)
+# model_dir = "./mt5_atasozleri_final_model"
+# os.makedirs(model_dir, exist_ok=True)
+# model.save_pretrained(model_dir)
+# tokenizer.save_pretrained(model_dir)
